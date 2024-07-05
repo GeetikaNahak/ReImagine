@@ -1,0 +1,94 @@
+
+.box-2 {
+    width: auto;
+    height: 300px;
+    margin: 0;
+    background: url('assets/threetoys.png');
+    /* background:red; */
+    animation: fade-in ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-timeline:view();
+    animation-range-start: 5px;
+    animation-range-end:600px;
+    /* box-shadow: 0px 0px 3px 3px black; */
+  }
+  
+  .container-2{
+  height:300px;
+  width:100%;
+  margin-top: 50px;
+  background:url('assets/Hero-Short-Large-Photoroom.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  .first,.second{
+  height:800px;
+  }
+  
+  @keyframes fade-in {
+    from {scale: 0;}
+    to {scale:1;}
+  }
+  .licon:before {
+    content: "";
+    background: url(https://rawcdn.githack.com/Nodws/NodPen/ffad95a…/postItem/licons.svg?) -2px -6px no-repeat;
+    background-size: 250px;
+    width: 26px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: -3px;
+    left: 0;
+  }
+
+  h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    
+}
+h3:after {
+    content: " ";
+    display: block;
+    width: 10%;
+    height: 2px;
+    margin: 20px auto;
+    border: 0;
+    background: #ff4278;
+    transition: all 0.2s;
+}
+  .city_logo{
+    background-image: url('assets/city_logo.png');
+    height: 60px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px;
+  }
+  .right {
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    padding: 10px;
+  }
+  .center {
+    margin: 80px auto;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+  }
+  .button{
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    /* padding: 5px; */
+    width: 140px;
+  }
